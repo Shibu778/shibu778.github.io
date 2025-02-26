@@ -7,6 +7,7 @@ author: Shibu
 description: Installing Quantum Espresso from Source Code.
 toc: true # default is true
 pin: false
+comments: true
 ---
 
 
