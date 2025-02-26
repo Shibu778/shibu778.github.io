@@ -202,64 +202,15 @@ Make the conda-forge recipe. For this install grayskull first.
 You can install Grayskull simply with `conda install -c conda-forge grayskull`  
 and then run `grayskull pypi defectpl=0.1.0` to generate the recipe in the current folder for package `defectpl=0.1.0`. Please note that the package should already be published in PyPI.
 
-Now, modify the `meta.yaml` file as required. Most of the settting will be already well set by grayskull. Other things like `dev_url`, `doc_url` can be set. An example of `meta.yaml` file is given below. Replace `assign` with `set` in the following file, .
+Now, modify the `meta.yaml` file as required. Most of the settting will be already well set by grayskull. Other things like `dev_url`, `doc_url` can be set. An example of `meta.yaml` file is given below.
 
-```yaml
-{% assign name = "defectpl" %}
-{% assign version = "0.1.0" %}
+<script src="https://gist.github.com/Shibu778/d3ea6eacbed7a0cc7fc9079c0b7693ba.js"></script>
 
-package:
-  name: {{ name|lower }}
-  version: {{ version }}
-
-source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/defectpl-{{ version }}.tar.gz
-  sha256: 4b8357fd54ab9ba5edc27a7a7526a4f3d3737e4f3cc381680fc6f8ef60fc333c
-
-build:
-  noarch: python
-  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
-
-requirements:
-  host:
-    - python >=3.11,<4.0
-    - poetry-core
-    - pip
-  run:
-    - python >=3.11.0,<4.0.0
-    - pyyaml >=6.0.2,<7.0.0
-    - numpy >=2.1.2,<3.0.0
-    - pymatgen 2024.10.3
-    - pathlib >=1.0.1,<2.0.0
-
-test:
-  imports:
-    - defectpl
-  commands:
-    - pip check
-  requires:
-    - pip
-
-about:
-  home: https://github.com/Shibu778/defectpl
-  summary: A unified package for optical properties of point defects.
-  license: MIT
-  license_file: LICENSE
-  doc_url: https://shibu778.github.io/defectpl
-  dev_url: https://github.com/Shibu778/defectpl
-
-extra:
-  recipe-maintainers:
-    - Shibu778
-
-```
-
-Now, get a fork of the [staged-recipes]([conda-forge/staged-recipes: A place to submit conda recipes before they become fully fledged conda-forge feedstocks](https://github.com/conda-forge/staged-recipes)) to start the process.
+Now, get a fork of the staged-recipes([conda-forge/staged-recipes: A place to submit conda recipes before they become fully fledged conda-forge feedstocks](https://github.com/conda-forge/staged-recipes)) to start the process.
 
 Once you have a fork press `.` to go to the dev mode in Github. Now go to recipes and create a folder for your package e.g. `defectpl` . Now add the above `meta.yaml` file in that folder. Also add a `LICENSE` file. Commit the changes to the repository with the commit message `Adding recipe for defectpl` . Now Create a pull request to the main repository. This will trigger several checks. Make sure all the checks pass. Once the check is passed, check the instruction in the pull request first comment (enable edit to see it) to make a comment for review. For my case, the second comment is `@conda-forge/help-python The recipe has passed all the tests, and it is ready for review. Thanks. @conda-forge-admin`. The first `@conda-forge/help-python` alerts the python team to make the review and the second `@conda-forge-admin` helps the first time contributer to the `conda-forge` to mention the team associated with the repo for PR review.
 
-Once the review is completed the package will be published in [Not Found | Anaconda.org](https://anaconda.org/conda-forge/defectpl).
+Once the review is completed the package will be published in [Anaconda.org](https://anaconda.org/conda-forge/defectpl).
 
 ### Updating a cond-forge publish
 
@@ -344,4 +295,4 @@ git push
 5. [GeoSoft Lesson 24 - Publishing Python Packages on conda-forge](https://www.youtube.com/watch?v=NNWhz7pqwCw)
 6. [How to publish a Python package on conda-forge](https://blog.gishub.org/how-to-publish-a-python-package-on-conda-forge)
 7. [GeoSoft Lesson 25 - Updating a Python Package on conda-forge](https://www.youtube.com/watch?v=yVFDdI-0E1M&list=PLAxJ4-o7ZoPeUqGpMhvJoVk5G-TrvMAd-&index=25)
-8. Python Software Development: https://youtube.com/playlist?list=PLAxJ4-o7ZoPeUqGpMhvJoVk5G-TrvMAd-&si=ZvOWVhrax2J3j_VG
+8. [Python Software Development](https://youtube.com/playlist?list=PLAxJ4-o7ZoPeUqGpMhvJoVk5G-TrvMAd-&si=ZvOWVhrax2J3j_VG)
