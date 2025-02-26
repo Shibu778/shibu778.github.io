@@ -14,7 +14,7 @@ comments: true
 # Compiling Quantum Espresso from Source
 You can directly install quantum espresso in your wsl or linux system by using the following command.
 
-```
+```bash
 sudo apt-get install quantum-espresso
 ```
 
