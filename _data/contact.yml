@@ -1,5 +1,9 @@
 #  The contact options.
 
+- type: portfolio
+  icon: 'fas fa-user-circle'
+  url: 'https://shibumeher.netlify.app/' # Fill with your Portfolio link
+
 - type: github
   icon: "fab fa-github"
 
@@ -35,10 +39,11 @@
 #   icon: 'fa-brands fa-reddit'
 #   url: ''                   # Fill with your Reddit profile link
 #
+
+- type: youtube
+  icon: 'fab fa-youtube'
+  url: 'https://www.youtube.com/@learn_share_improve' # Fill with your Youtube channel link
+
 - type: threads
   icon: 'fa-brands fa-threads'
   url: 'https://www.threads.net/@learn_share_improve' # Fill with your Threads profile link
-
-- type: portfolio
-  icon: 'fa-brands fa-portfolio'
-  url: 'https://shibu778.github.io/' # Fill with your Portfolio link
