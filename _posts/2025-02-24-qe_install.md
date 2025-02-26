@@ -3,7 +3,7 @@ title: Installing Quantum Espresso from Source
 date: 2025-02-24 00:48:00
 categories: [CMS, Quantum Espresso]
 tags: [Installation, Quantum Espresso, Ubunut]     # TAG names should always be lowercase
-author: 1234
+author: Shibu Meher
 description: Installing Quantum Espresso from Source Code.
 toc: true # default is true
 pin: true
