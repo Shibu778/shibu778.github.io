@@ -38,3 +38,7 @@
 - type: threads
   icon: 'fa-brands fa-threads'
   url: 'https://www.threads.net/@learn_share_improve' # Fill with your Threads profile link
+
+- type: portfolio
+  icon: 'fa-brands fa-portfolio'
+  url: 'https://shibu778.github.io/' # Fill with your Portfolio link

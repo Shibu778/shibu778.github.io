@@ -4,5 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+To know about me, check my portfolio website.
+
+<a href="https://shibumeher.netlify.app/" class="btn btn-primary">Learn More About Me</a>
