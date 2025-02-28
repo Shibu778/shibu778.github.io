@@ -1,7 +1,7 @@
 ---
 title: Installing Quantum Espresso from Source
 date: 2025-02-24 00:48:00
-categories: [Compuational Materials Science]
+categories: [Computational Materials Science]
 tags: [Compiling, Quantum Espresso, Ubuntu]     # TAG names should always be lowercase
 author: Shibu
 description: Installing Quantum Espresso from Source Code.
