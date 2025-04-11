@@ -1,8 +1,8 @@
 ---
 title: Binary Trees using C
-date: 2025-04-08
-categories: [Software Development]
-tags: [python, development, programming]     # TAG names should always be lowercase
+date: 2025-04-11
+categories: [DSA]
+tags: [DSA, C, programming]     # TAG names should always be lowercase
 author: Shibu
 description: Diving Deep into Binary Trees using C
 toc: true # default is true
@@ -64,7 +64,7 @@ A **Binary Tree** is a hierarchical data structure where each node has *at most*
 *   **Leaf Nodes:** D, E, F
 *   **Parent of D & E:** B
 *   **Left Child of A:** B
-*   **Right Child of C:** None (NULL)
+*   **Left Child of C:** None (NULL)
 *   **Height of Node B:** 1
 *   **Height of Tree:** 2 (longest path A -> B -> D or A -> B -> E)
 *   **Depth of Node F:** 2
@@ -409,3 +409,15 @@ Because the performance of BSTs degrades in the worst case, self-balancing binar
 ### Conclusion
 
 Binary trees, especially Binary Search Trees, are powerful tools in a programmer's arsenal. They provide an efficient way to handle ordered data and represent hierarchical relationships. Understanding their structure, terminology, and basic operations (like insertion, traversal, and search) using a language like C is a crucial step in mastering data structures and algorithms. While this post covered the basics, there's much more to explore, including deletion algorithms, balancing techniques, and different tree variations. Happy coding!
+
+### References
+
+1.  **Textbooks:**
+    *   **"Introduction to Algorithms" (CLRS) by Cormen, Leiserson, Rivest, and Stein:** Often considered the bible of algorithms. It provides rigorous theoretical foundations for binary trees, binary search trees, traversals, and complexity analysis (Chapters 10 and 12 in the 3rd/4th editions typically cover basic data structures including trees).
+    *   **"Data Structures and Algorithm Analysis in C" by Mark Allen Weiss:** A highly respected textbook that specifically uses C for implementations. It covers binary trees, BSTs, traversals, and related concepts in detail, aligning well with the post's implementation focus.
+    *   **"The C Programming Language" (K&R) by Kernighan and Ritchie:** While not focused on data structures specifically, it's the definitive reference for the C language itself, essential for understanding pointers, structs, `malloc`, and `stdlib.h` used in the implementations.
+
+2.  **Online Resources:**
+    *   **GeeksforGeeks (geeksforgeeks.org):** Has extensive articles and tutorials on Binary Trees, Binary Search Trees, traversals (Inorder, Preorder, Postorder), and provides code examples in various languages, including C. (e.g., search for "Binary Tree Data Structure", "Binary Search Tree C", "Tree Traversal C").
+    *   **Programiz (programiz.com):** Offers clear, beginner-friendly tutorials on data structures, including binary trees and BSTs, often with C implementations. (e.g., search for "Binary Tree C", "BST C Programiz").
+    *   **TutorialsPoint (tutorialspoint.com):** Another resource providing tutorials on data structures and algorithms with C examples.
