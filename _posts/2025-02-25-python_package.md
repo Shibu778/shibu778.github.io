@@ -6,7 +6,7 @@ tags: [python, development, programming]     # TAG names should always be lowerc
 author: Shibu
 description: A comprehensive tutorial to develop and deploy a python package.
 toc: true # default is true
-pin: false
+pin: true
 comments: true
 ---
 
