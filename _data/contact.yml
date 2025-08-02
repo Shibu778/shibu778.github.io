@@ -44,6 +44,6 @@
   icon: 'fab fa-youtube'
   url: 'https://www.youtube.com/@learn_share_improve' # Fill with your Youtube channel link
 
-- type: threads
-  icon: 'fa-brands fa-threads'
-  url: 'https://www.threads.net/@learn_share_improve' # Fill with your Threads profile link
+# - type: threads
+#   icon: 'fa-brands fa-threads'
+#   url: 'https://www.threads.net/@learn_share_improve' # Fill with your Threads profile link

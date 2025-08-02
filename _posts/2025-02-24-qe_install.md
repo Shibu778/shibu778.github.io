@@ -2,7 +2,7 @@
 title: Installing Quantum Espresso from Source
 date: 2025-02-24 00:48:00
 categories: [Computational Materials Science]
-tags: [Compiling, Quantum Espresso, Ubuntu]     # TAG names should always be lowercase
+tags: [compiling, quantum espresso]     # TAG names should always be lowercase
 author: Shibu
 description: Installing Quantum Espresso from Source Code.
 toc: true # default is true
