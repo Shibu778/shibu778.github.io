@@ -1,5 +1,5 @@
 ---
-title: A Crash Course on the Foundations of AI 🤖 (Lecture 1)
+title: A Crash Course on the Foundations of AI 🤖
 date: 2025-08-14
 categories: [AI]
 tags: [aicourse, lecturenotes]
@@ -62,4 +62,4 @@ That's a lot of ground to cover! We'll be diving deeper into these topics throug
 
 
 ### References
-1. Artificial Intelligence: A Modern Approach" by Russell and Norvig
+1. Artificial Intelligence: A Modern Approach" by Russell and Norvig, Chapter 1
